@@ -13,7 +13,7 @@ mkdir /.config/
 mkdir /.config/rclone
 touch /.config/rclone/rclone.conf
 
-wget git.io/tracker.sh
+wget https://raw.githubusercontent.com/P3TERX/aria2_perfect_config/master/tracker.sh
 chmod 0777 /tracker.sh
 /bin/bash tracker.sh "/root/.aria2/aria2.conf"
 
